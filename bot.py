@@ -13,7 +13,7 @@ def db_connection():
     return mysql.connector.connect(
         host="localhost",        # Endereço do servidor MySQL
         user="root",             # Seu usuário MySQL
-        password="senha",        # Sua senha MySQL
+        password="Manchope.4721",        # Sua senha MySQL
         database="bot_configurations"  # Nome do banco de dados
     )
 
@@ -122,7 +122,7 @@ def set_package_value(update: Update, context: CallbackContext):
 # Função principal para configurar e iniciar o bot
 def main():
     # Substitua pelo seu token do bot
-    TOKEN = 'SEU_TOKEN_AQUI'
+    TOKEN = '7790638364:AAH9CVLbEXBROLHP0TK_MOIVXm73mea6DJI'
     
     updater = Updater(TOKEN, use_context=True)
     
