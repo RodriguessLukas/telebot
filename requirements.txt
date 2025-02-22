@@ -1,4 +1,3 @@
 pyTelegramBotAPI
-install
 requests
 json5
